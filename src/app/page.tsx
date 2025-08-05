@@ -3,13 +3,6 @@ import HeroParticularProducts from "@/components/frontend/HomePages/HeroParticul
 import HeroProducts from "@/components/frontend/HomePages/HeroProducts";
 import HeroRecommendedProducts from "@/components/frontend/HomePages/HeroRecommendedProducts";
 import HeroSection from "@/components/frontend/HomePages/HeroSection";
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  SignUpButton,
-  UserButton,
-} from "@clerk/nextjs";
 
 export default function Home() {
   return (
